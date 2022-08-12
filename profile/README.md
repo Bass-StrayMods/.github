@@ -11,20 +11,20 @@ Go to any mods repository and get the clone address, do `git submodule add -f <g
 ## Packaging
 In order to be able to package mods in your project, you need to go to `Project Settings` and enable `Generate Chunks`
 
-<img src="projectSettings.png" width="300">
+<img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/projectSettings.png" width="300">
 <br/>
 
-<img src="generateChunks.png" width="800">
+<img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/generateChunks.png" width="800">
 <br/>
 
 Assign every item under the mod subfolder (i.e. SetupTrainer) to a packaging chunk you will remember (check image). Save all the elements after doing so to update their chunk information.
 
-<img src="assignChunk.png" width="800">
+<img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/assignChunk.png" width="800">
 <br/>
 
 Package the project under the `Pkg` folder in your root UE project directory (you will need to create it, does not have to be Pak, any name/directory works just remember where it is).\
 
-<img src="package.png" width="500">
+<img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/package.png" width="500">
 <br/>
 
 After the project is packaged, go to `Pkg\WindowsNoEditor\Hk_project\Content\Paks` and rename `pakchunk<pak#>-WindowsNoEditor.pak` to `YourModName.pak` (i.e. SetupTrainer.pak).\
