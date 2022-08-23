@@ -9,7 +9,16 @@ Independent mods can be added to your project as submodules and that is the purp
 Go to any mods repository and get the clone address, do `git submodule add -f <git@github.com...>` inside of Content/Mods in your UE project
 
 ## Packaging
-In order to be able to package mods in your project, you need to go to `Project Settings` and enable `Generate Chunks`
+In order to be able to package mods in your project, you need to change some settings.
+- Go to `Editor Settings` and enable `Allow ChunkID Assignments`
+
+<img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/editorSettings.png" width="300">
+<br/>
+
+<img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/generateChunks.png" width="600">
+<br/>
+
+- Go to `Project Settings` and enable `Generate Chunks`
 
 <img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/projectSettings.png" width="300">
 <br/>
