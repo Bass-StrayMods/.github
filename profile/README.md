@@ -15,7 +15,7 @@ In order to be able to package mods in your project, you need to change some set
 <img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/editorSettings.png" width="300">
 <br/>
 
-<img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/generateChunks.png" width="600">
+<img src="https://github.com/Bass-StrayMods/.github/blob/main/profile/chunkAssingments.png" width="600">
 <br/>
 
 - Go to `Project Settings` and enable `Generate Chunks`
